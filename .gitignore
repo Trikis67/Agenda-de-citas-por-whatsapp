@@ -1,0 +1,10 @@
+node_modules/
+.env
+credenciales-google.json
+data/
+
+# Claves de Google descargadas
+*-[0-9a-f][0-9a-f][0-9a-f][0-9a-f]*.json
+!package*.json
+.env.*
+!.env.example
