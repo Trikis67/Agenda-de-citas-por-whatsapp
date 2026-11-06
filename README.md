@@ -1,12 +1,65 @@
-# 🤖 Bot de citas por WhatsApp + Google Calendar
+<div align="center">
 
-Plantilla que sirve para cualquier negocio. El bot:
+# 📅 Agenda de citas por WhatsApp
 
-1. Atiende a los clientes por WhatsApp con un **menú numerado**.
-2. Muestra los **horarios libres** según tu Google Calendar (de 9:00 a 17:00, de lunes a viernes).
-3. **Crea la cita** en Google Calendar.
-4. Le **avisa a la persona encargada** por WhatsApp cada vez que se agenda o se cancela una cita.
-5. Le manda un **recordatorio al cliente 24 h antes**; el cliente puede responder CONFIRMAR o CANCELAR.
+**Bot de WhatsApp que agenda citas en Google Calendar, avisa al encargado y le recuerda la cita al cliente.**
+Plantilla lista para cualquier negocio: barbería, consultorio, taller, salón de belleza…
+
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs&logoColor=white)
+![WhatsApp Cloud API](https://img.shields.io/badge/WhatsApp-Cloud%20API-25D366?logo=whatsapp&logoColor=white)
+![Google Calendar](https://img.shields.io/badge/Google-Calendar%20API-4285F4?logo=googlecalendar&logoColor=white)
+![Idioma](https://img.shields.io/badge/idioma-espa%C3%B1ol-0f766e)
+
+</div>
+
+---
+
+## ✨ Cómo se ve
+
+| 1. Menú y servicios | 2. Día y horario | 3. Confirmación |
+|:---:|:---:|:---:|
+| <img src="docs/img/1-menu.svg" width="250" alt="Menú del bot"> | <img src="docs/img/2-horarios.svg" width="250" alt="Elegir día y horario"> | <img src="docs/img/3-confirmacion.svg" width="250" alt="Confirmación de la cita"> |
+
+| ⏰ Recordatorio al cliente | 🔔 Avisos al encargado |
+|:---:|:---:|
+| <img src="docs/img/4-recordatorio.svg" width="250" alt="Recordatorio antes de la cita"> | <img src="docs/img/5-encargado.svg" width="250" alt="Avisos de citas nuevas y canceladas"> |
+
+<sub>Las capturas son de ejemplo, con los mismos textos que envía el bot. Se generan con `node scripts/generar-capturas.js`.</sub>
+
+## 🚀 Qué hace
+
+- 💬 **Menú numerado por WhatsApp**: agendar, ver mis citas, cancelar o hablar con una persona.
+- 🗓️ **Horarios libres reales** según tu Google Calendar (de 9:00 a 17:00, de lunes a viernes, configurable).
+- ✅ **Crea la cita en Google Calendar** y vuelve a revisar que el horario siga libre antes de confirmarla.
+- 🔔 **Avisa al encargado** por WhatsApp de cada cita nueva o cancelada.
+- ⏰ **Recordatorio automático 24 h antes**; el cliente responde *CONFIRMAR* o *CANCELAR*.
+- 🧹 Si el encargado borra la cita en Google Calendar, el bot no manda el recordatorio.
+- 🧪 **Simulador en consola** para probarlo sin WhatsApp ni Google.
+
+## 🧭 Cómo funciona
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor C as Cliente
+    participant W as WhatsApp (Meta)
+    participant B as Bot (Node.js)
+    participant G as Google Calendar
+    actor E as Encargado
+
+    C->>W: "Hola"
+    W->>B: Webhook con el mensaje
+    B-->>C: Menú, servicios y días
+    B->>G: ¿Qué horarios están libres?
+    G-->>B: Horarios ocupados
+    B-->>C: Horarios disponibles
+    C->>B: Elige horario y confirma
+    B->>G: Crea el evento
+    B-->>C: ✅ ¡Cita agendada!
+    B-->>E: 🆕 Nueva cita
+    Note over B: Revisa cada 10 min
+    B-->>C: ⏰ Recordatorio 24 h antes
+```
 
 ---
 
@@ -104,3 +157,4 @@ Las citas se guardan en `data/db.json`, así que el hosting tiene que tener **di
 | `src/store.js` | Guarda citas y conversaciones en `data/db.json` |
 | `src/server.js` | Servidor web (webhook) |
 | `src/simulate.js` | Simulador en consola |
+| `scripts/generar-capturas.js` | Genera las capturas de `docs/img/` (`npm run capturas`) |

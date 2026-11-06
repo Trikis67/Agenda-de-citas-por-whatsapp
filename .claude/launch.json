@@ -6,6 +6,12 @@
       "runtimeExecutable": "node",
       "runtimeArgs": ["src/server.js"],
       "port": 3000
+    },
+    {
+      "name": "capturas",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["-e", "const h=require('http'),f=require('fs'),p=require('path');h.createServer((q,r)=>{const u=decodeURIComponent(q.url.split('?')[0]);if(u==='/'){r.setHeader('content-type','text/html');return r.end('<body style=\"background:#ddd;display:flex;flex-wrap:wrap;gap:16px;padding:16px\">'+f.readdirSync('docs/img').map(x=>'<img src=\"/docs/img/'+x+'\" width=\"300\">').join('')+'</body>')}const fp=p.join(process.cwd(),u);if(!f.existsSync(fp)){r.statusCode=404;return r.end()}r.setHeader('content-type',fp.endsWith('.svg')?'image/svg+xml':'text/plain');f.createReadStream(fp).pipe(r)}).listen(4000)"],
+      "port": 4000
     }
   ]
 }

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="856" viewBox="0 0 380 856" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+  <filter id="sombra" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="1" stdDeviation="0.6" flood-opacity="0.18"/></filter>
+  <pattern id="fondo" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="#efeae2"/><circle cx="8" cy="8" r="1.4" fill="#e2d9cc"/><circle cx="28" cy="26" r="1.4" fill="#e2d9cc"/></pattern>
+  <clipPath id="pantalla"><rect width="380" height="856" rx="28"/></clipPath>
+</defs>
+<g clip-path="url(#pantalla)">
+  <rect width="380" height="856" fill="url(#fondo)"/>
+  <rect width="380" height="76" fill="#0f766e"/>
+  <text x="18" y="47" font-size="22" fill="#ffffff">‹</text>
+  <circle cx="58" cy="40" r="20" fill="#5eead4"/>
+  <text x="58" y="46" font-size="15" font-weight="700" fill="#0f766e" text-anchor="middle">MN</text>
+  <text x="88" y="36" font-size="16" font-weight="600" fill="#ffffff">Mi Negocio</text>
+  <text x="88" y="56" font-size="12.5" fill="#ccfbf1">Bot de citas · en línea</text>
+  <g filter="url(#sombra)"><rect x="14" y="92" width="275.6" height="125" rx="9" fill="#ffffff"/></g><text x="26" y="114" font-size="14" fill="#111b21">¿A nombre de quién agendamos la</text><text x="26" y="133" font-size="14" fill="#111b21">cita? ✍️</text><text x="26" y="171" font-size="14" fill="#111b21">Responde <tspan font-weight="700">1</tspan> para usar "Ana López" o</text><text x="26" y="190" font-size="14" fill="#111b21">escribe otro nombre.</text><text x="279.6" y="209" font-size="11" fill="#667781" text-anchor="end">10:04</text><g filter="url(#sombra)"><rect x="282" y="227" width="84" height="49" rx="9" fill="#d9fdd3"/></g><text x="294" y="249" font-size="14" fill="#111b21">1</text><text x="356" y="268" font-size="11" fill="#53bdeb" text-anchor="end">10:05  ✓✓</text><g filter="url(#sombra)"><rect x="14" y="286" width="260.8" height="220" rx="9" fill="#ffffff"/></g><text x="26" y="308" font-size="14" fill="#111b21">📋 <tspan font-weight="700">Revisa tu cita:</tspan></text><text x="26" y="346" font-size="14" fill="#111b21">👤 Nombre: Ana López</text><text x="26" y="365" font-size="14" fill="#111b21">💼 Servicio: Servicio completo</text><text x="26" y="384" font-size="14" fill="#111b21">📅 Fecha: Martes 10 de noviembre</text><text x="26" y="403" font-size="14" fill="#111b21">🕐 Hora: 11:00 a. m.</text><text x="26" y="422" font-size="14" fill="#111b21">📍 Calle Principal #123</text><text x="26" y="460" font-size="14" fill="#111b21"><tspan font-weight="700">1.</tspan> Confirmar</text><text x="26" y="479" font-size="14" fill="#111b21"><tspan font-weight="700">2.</tspan> Cancelar</text><text x="264.8" y="498" font-size="11" fill="#667781" text-anchor="end">10:05</text><g filter="url(#sombra)"><rect x="282" y="516" width="84" height="49" rx="9" fill="#d9fdd3"/></g><text x="294" y="538" font-size="14" fill="#111b21">1</text><text x="356" y="557" font-size="11" fill="#53bdeb" text-anchor="end">10:05  ✓✓</text><g filter="url(#sombra)"><rect x="14" y="575" width="283" height="201" rx="9" fill="#ffffff"/></g><text x="26" y="597" font-size="14" fill="#111b21">✅ <tspan font-weight="700">¡Cita agendada!</tspan></text><text x="26" y="635" font-size="14" fill="#111b21">Servicio completo</text><text x="26" y="654" font-size="14" fill="#111b21">📅 Martes 10 de noviembre a las</text><text x="26" y="673" font-size="14" fill="#111b21">11:00 a. m.</text><text x="26" y="692" font-size="14" fill="#111b21">📍 Calle Principal #123</text><text x="26" y="730" font-size="14" fill="#111b21">Te enviaremos un recordatorio antes</text><text x="26" y="749" font-size="14" fill="#111b21">de tu cita.</text><text x="287" y="768" font-size="11" fill="#667781" text-anchor="end">10:05</text>
+  <rect y="798" width="380" height="58" fill="#f0f2f5"/>
+  <rect x="12" y="808" width="304" height="38" rx="19" fill="#ffffff"/>
+  <text x="30" y="832" font-size="14" fill="#8696a0">Escribe un mensaje</text>
+  <circle cx="348" cy="827" r="20" fill="#0f766e"/>
+  <path d="M 340 819 L 358 827 L 340 835 L 343 827 Z" fill="#ffffff"/>
+</g>
+<rect x="0.5" y="0.5" width="379" height="855" rx="28" fill="none" stroke="#d1d7db"/>
+</svg>

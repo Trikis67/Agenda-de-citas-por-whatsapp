@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="742" viewBox="0 0 380 742" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+  <filter id="sombra" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="1" stdDeviation="0.6" flood-opacity="0.18"/></filter>
+  <pattern id="fondo" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="#efeae2"/><circle cx="8" cy="8" r="1.4" fill="#e2d9cc"/><circle cx="28" cy="26" r="1.4" fill="#e2d9cc"/></pattern>
+  <clipPath id="pantalla"><rect width="380" height="742" rx="28"/></clipPath>
+</defs>
+<g clip-path="url(#pantalla)">
+  <rect width="380" height="742" fill="url(#fondo)"/>
+  <rect width="380" height="76" fill="#0f766e"/>
+  <text x="18" y="47" font-size="22" fill="#ffffff">‹</text>
+  <circle cx="58" cy="40" r="20" fill="#5eead4"/>
+  <text x="58" y="46" font-size="15" font-weight="700" fill="#0f766e" text-anchor="middle">MN</text>
+  <text x="88" y="36" font-size="16" font-weight="600" fill="#ffffff">Mi Negocio</text>
+  <text x="88" y="56" font-size="12.5" fill="#ccfbf1">Bot de citas · en línea</text>
+  <g filter="url(#sombra)"><rect x="282" y="92" width="84" height="49" rx="9" fill="#d9fdd3"/></g><text x="294" y="114" font-size="14" fill="#111b21">2</text><text x="356" y="133" font-size="11" fill="#53bdeb" text-anchor="end">10:03  ✓✓</text><g filter="url(#sombra)"><rect x="14" y="151" width="253.4" height="201" rx="9" fill="#ffffff"/></g><text x="26" y="173" font-size="14" fill="#111b21">Elegiste: <tspan font-weight="700">Servicio completo</tspan> (60</text><text x="26" y="192" font-size="14" fill="#111b21">min).</text><text x="26" y="230" font-size="14" fill="#111b21">¿Qué día te queda mejor?</text><text x="26" y="249" font-size="14" fill="#111b21"><tspan font-weight="700">1.</tspan> Lunes 9 de noviembre</text><text x="26" y="268" font-size="14" fill="#111b21"><tspan font-weight="700">2.</tspan> Martes 10 de noviembre</text><text x="26" y="287" font-size="14" fill="#111b21"><tspan font-weight="700">3.</tspan> Miércoles 11 de noviembre</text><text x="26" y="306" font-size="14" fill="#111b21"><tspan font-weight="700">4.</tspan> Jueves 12 de noviembre</text><text x="26" y="325" font-size="14" fill="#111b21"><tspan font-weight="700">5.</tspan> Viernes 13 de noviembre</text><text x="257.4" y="344" font-size="11" fill="#667781" text-anchor="end">10:03</text><g filter="url(#sombra)"><rect x="282" y="362" width="84" height="49" rx="9" fill="#d9fdd3"/></g><text x="294" y="384" font-size="14" fill="#111b21">2</text><text x="356" y="403" font-size="11" fill="#53bdeb" text-anchor="end">10:04  ✓✓</text><g filter="url(#sombra)"><rect x="14" y="421" width="290" height="182" rx="9" fill="#ffffff"/></g><text x="26" y="443" font-size="14" fill="#111b21">Horarios disponibles el <tspan font-weight="700">Martes 10 de</tspan></text><text x="26" y="462" font-size="14" fill="#111b21"><tspan font-weight="700">noviembre</tspan>:</text><text x="26" y="481" font-size="14" fill="#111b21"><tspan font-weight="700">1.</tspan> 9:00 a. m.</text><text x="26" y="500" font-size="14" fill="#111b21"><tspan font-weight="700">2.</tspan> 9:30 a. m.</text><text x="26" y="519" font-size="14" fill="#111b21"><tspan font-weight="700">3.</tspan> 11:00 a. m.</text><text x="26" y="538" font-size="14" fill="#111b21"><tspan font-weight="700">4.</tspan> 11:30 a. m.</text><text x="26" y="557" font-size="14" fill="#111b21"><tspan font-weight="700">5.</tspan> 2:00 p. m.</text><text x="26" y="576" font-size="14" fill="#111b21"><tspan font-weight="700">6.</tspan> 3:30 p. m.</text><text x="294" y="595" font-size="11" fill="#667781" text-anchor="end">10:04</text><g filter="url(#sombra)"><rect x="282" y="613" width="84" height="49" rx="9" fill="#d9fdd3"/></g><text x="294" y="635" font-size="14" fill="#111b21">3</text><text x="356" y="654" font-size="11" fill="#53bdeb" text-anchor="end">10:04  ✓✓</text>
+  <rect y="684" width="380" height="58" fill="#f0f2f5"/>
+  <rect x="12" y="694" width="304" height="38" rx="19" fill="#ffffff"/>
+  <text x="30" y="718" font-size="14" fill="#8696a0">Escribe un mensaje</text>
+  <circle cx="348" cy="713" r="20" fill="#0f766e"/>
+  <path d="M 340 705 L 358 713 L 340 721 L 343 713 Z" fill="#ffffff"/>
+</g>
+<rect x="0.5" y="0.5" width="379" height="741" rx="28" fill="none" stroke="#d1d7db"/>
+</svg>

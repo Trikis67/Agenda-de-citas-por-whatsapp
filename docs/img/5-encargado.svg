@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="603" viewBox="0 0 380 603" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+  <filter id="sombra" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="1" stdDeviation="0.6" flood-opacity="0.18"/></filter>
+  <pattern id="fondo" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="#efeae2"/><circle cx="8" cy="8" r="1.4" fill="#e2d9cc"/><circle cx="28" cy="26" r="1.4" fill="#e2d9cc"/></pattern>
+  <clipPath id="pantalla"><rect width="380" height="603" rx="28"/></clipPath>
+</defs>
+<g clip-path="url(#pantalla)">
+  <rect width="380" height="603" fill="url(#fondo)"/>
+  <rect width="380" height="76" fill="#0f766e"/>
+  <text x="18" y="47" font-size="22" fill="#ffffff">‹</text>
+  <circle cx="58" cy="40" r="20" fill="#5eead4"/>
+  <text x="58" y="46" font-size="15" font-weight="700" fill="#0f766e" text-anchor="middle">🔔</text>
+  <text x="88" y="36" font-size="16" font-weight="600" fill="#ffffff">Bot de citas</text>
+  <text x="88" y="56" font-size="12.5" fill="#ccfbf1">Avisos para el encargado</text>
+  <rect x="135" y="92" width="110" height="24" rx="7" fill="#ffffff" opacity="0.9"/><text x="190" y="108" font-size="12" fill="#54656f" text-anchor="middle">HOY</text><g filter="url(#sombra)"><rect x="14" y="128" width="253.4" height="125" rx="9" fill="#ffffff"/></g><text x="26" y="150" font-size="14" fill="#111b21">🆕 <tspan font-weight="700">Nueva cita</tspan></text><text x="26" y="169" font-size="14" fill="#111b21">👤 Ana López (+502 5555 1234)</text><text x="26" y="188" font-size="14" fill="#111b21">💼 Servicio completo</text><text x="26" y="207" font-size="14" fill="#111b21">📅 Martes 10 de noviembre a las</text><text x="26" y="226" font-size="14" fill="#111b21">11:00 a. m.</text><text x="257.4" y="245" font-size="11" fill="#667781" text-anchor="end">10:05</text><g filter="url(#sombra)"><rect x="14" y="263" width="275.6" height="125" rx="9" fill="#ffffff"/></g><text x="26" y="285" font-size="14" fill="#111b21">🆕 <tspan font-weight="700">Nueva cita</tspan></text><text x="26" y="304" font-size="14" fill="#111b21">👤 Carlos Pérez (+502 5555 9876)</text><text x="26" y="323" font-size="14" fill="#111b21">💼 Consulta general</text><text x="26" y="342" font-size="14" fill="#111b21">📅 Miércoles 11 de noviembre a las</text><text x="26" y="361" font-size="14" fill="#111b21">9:30 a. m.</text><text x="279.6" y="380" font-size="11" fill="#667781" text-anchor="end">13:40</text><g filter="url(#sombra)"><rect x="14" y="398" width="275.6" height="125" rx="9" fill="#ffffff"/></g><text x="26" y="420" font-size="14" fill="#111b21">❌ <tspan font-weight="700">Cita cancelada</tspan></text><text x="26" y="439" font-size="14" fill="#111b21">👤 Carlos Pérez (+502 5555 9876)</text><text x="26" y="458" font-size="14" fill="#111b21">💼 Consulta general</text><text x="26" y="477" font-size="14" fill="#111b21">📅 Miércoles 11 de noviembre a las</text><text x="26" y="496" font-size="14" fill="#111b21">9:30 a. m.</text><text x="279.6" y="515" font-size="11" fill="#667781" text-anchor="end">16:18</text>
+  <rect y="545" width="380" height="58" fill="#f0f2f5"/>
+  <rect x="12" y="555" width="304" height="38" rx="19" fill="#ffffff"/>
+  <text x="30" y="579" font-size="14" fill="#8696a0">Escribe un mensaje</text>
+  <circle cx="348" cy="574" r="20" fill="#0f766e"/>
+  <path d="M 340 566 L 358 574 L 340 582 L 343 574 Z" fill="#ffffff"/>
+</g>
+<rect x="0.5" y="0.5" width="379" height="602" rx="28" fill="none" stroke="#d1d7db"/>
+</svg>

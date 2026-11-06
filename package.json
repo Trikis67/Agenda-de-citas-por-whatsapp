@@ -1,5 +1,5 @@
 {
-  "name": "bot-citas-whatsapp",
+  "name": "agenda-de-citas-por-whatsapp",
   "version": "1.0.0",
   "description": "Plantilla de bot de WhatsApp que agenda citas en Google Calendar y envía recordatorios",
   "main": "src/server.js",
@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
-    "simular": "node src/simulate.js"
+    "simular": "node src/simulate.js",
+    "capturas": "node scripts/generar-capturas.js"
   },
   "engines": {
     "node": ">=18"
